@@ -82,8 +82,8 @@ spring:
       on-profile: mysql
   datasource:
     url: jdbc:mysql://admin.cpigoksykqdt.eu-west-2.rds.amazonaws.com:3306/petclinic?useSSL=false
-    username: root
-    password: petclinic
+    username: password
+    password: password
   sql:
     init:
       schema-locations: classpath*:db/mysql/schema.sql
