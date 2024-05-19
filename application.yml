@@ -81,9 +81,15 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-    url: jdbc:mysql://database-1.cpigoksykqdt.eu-west-2.rds.amazonaws.com:3306/
+    url: jdbc:mysql://database-1.cpigoksykqdt.eu-west-2.rds.amazonaws.com:3306/database-1
     username: password
     password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
   sql:
     init:
       schema-locations: classpath*:db/mysql/schema.sql
