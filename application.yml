@@ -81,11 +81,11 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-    url: jdbc:mysql://password.cpigoksykqdt.eu-west-2.rds.amazonaws.com:3306/petclinic?useSSL=false
+    url: jdbc:mysql://database-1.cpigoksykqdt.eu-west-2.rds.amazonaws.com:3306/
     username: password
     password: password
   sql:
     init:
       schema-locations: classpath*:db/mysql/schema.sql
       data-locations: classpath*:db/mysql/data.sql
-      init: NEVER
+      init: ALWAYS
