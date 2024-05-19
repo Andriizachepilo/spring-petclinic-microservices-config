@@ -81,8 +81,8 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-    url: jdbc:mysql://database-1.cpigoksykqdt.eu-west-2.rds.amazonaws.com:3306/database-1
-    username: password
+    url: jdbc:mysql://mydatabase.cpigoksykqdt.eu-west-2.rds.amazonaws.com:3306/mydatabase
+    username: username
     password: password
   jpa:
     hibernate:
