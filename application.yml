@@ -81,9 +81,9 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-    url: jdbc:mysql://mydatabase.cpigoksykqdt.eu-west-2.rds.amazonaws.com:3306/mysql_database
-    username: RBMcTcGwz
-    password: g7T%qFuKq
+    url: jdbc:mysql://mysql-server3213w123.mysql.database.azure.com:3306/MySQL_database
+    username: BnrVKLurt
+    password: 6Eq><!O:5
   jpa:
     hibernate:
       ddl-auto: update
