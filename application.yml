@@ -82,8 +82,8 @@ spring:
       on-profile: mysql
   datasource:
     url: jdbc:mysql://mysql-server3213w123.mysql.database.azure.com:3306/mysql_database
-    username: c8pDtdSTx
-    password: <BGg5GK%g
+    username: "c8pDtdSTx"
+    password: "<BGg5GK%g"
   jpa:
     hibernate:
       ddl-auto: update
