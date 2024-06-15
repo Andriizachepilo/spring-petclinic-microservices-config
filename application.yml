@@ -81,16 +81,9 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-    url: jdbc:mysql://mysql-server3213w123.mysql.database.azure.com:3306/mysql_database
-
-    username: sO1kfyAfT
-    password: 4sbdwh(N!
-  jpa:
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
+    url: jdbc:mysql://localhost:3306/petclinic?useSSL=false
+    username: root
+    password: petclinic
   sql:
     init:
       schema-locations: classpath*:db/mysql/schema.sql
