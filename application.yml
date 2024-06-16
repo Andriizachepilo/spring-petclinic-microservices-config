@@ -77,20 +77,14 @@ chaos:
 
 ---
 spring:
-  config:
-    activate:
-      on-profile: mysql
   datasource:
     url: jdbc:mysql://mysql:3306/petclinic?useSSL=false
     username: root
     password: petclinic
-  sql:
-    init:
-      schema-locations: classpath*:db/mysql/schema.sql
-      data-locations: classpath*:db/mysql/data.sql
   jpa:
     hibernate:
       ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
+
